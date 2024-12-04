@@ -19,3 +19,18 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.ui.tab {
+  display: block !important;
+  visibility: visible !important;
+}
+
+.ui.secondary.pointing.menu .active.item {
+  color: orange !important;
+  border-bottom-color: orange !important;
+}
+
+.ui.secondary.pointing.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
